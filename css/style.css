@@ -1,4 +1,15 @@
-
+@font-face{
+font-family: 'Open Sans';
+url('../Open_Sans/OpenSans-Regular.ttf') format('truetype')
+font-weight: normal;
+font-style: normal;
+}
+@font-face{
+font-family: 'Open Sans';
+url('../Open_Sans/OpenSans-Italic.ttf') format('truetype')
+font-weight: normal;
+font-style: italic;
+}
 html {
   font-size: 100%;
   overflow-y: scroll;
