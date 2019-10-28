@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>News app</title>
+  </head>
+  <body class="wrapper">
+    <header class="header-wrapper">
+      <h1 class="logo">News Portal</h1>
+      <nav class="nav-wrapper">
+            
+      </nav> 
+    </header>
+    
+    <main class="content">
+        <div class="news"></div>
+    </main>
+
+    <footer class="footer">
+        <p class="copyright">Copyright <a class="copyright-link" target="_blank" href="https://newsapi.org">NewsAPI</a></p>
+    </footer>
+
+    <template id="navItemTemplate">
+      <div class="dropdown">
+        <button class="dropbtn"></button>
+        <div class="dropdown-content">
+        </div>
+      </div> 
+    </template>
+
+    <template id="sourceItemTemplate">      
+      <p class="dropdown-content__item"></p>        
+    </template>
+
+    <template id="newsItemTemplate">
+        <figure class="news__item">
+          <img class="news__item-img" src="" alt="" />
+          <div class="news__item-date">
+            <span class="news__item-day-month"></span>
+            <span class="news__item-year"></span>
+          </div>
+          <figcaption class="news__item-info">
+            <h3 class="news__item-title"></h3>
+            <p class="news__item-description"></p>
+          </figcaption>
+          <div class="hover"><i class="ion-android-open"></i></div>
+          <a class="news__item-link" href="#" target="_blank"></a>
+        </figure>
+    </template>
+  </body>
+</html>
